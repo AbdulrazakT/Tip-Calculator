@@ -1,0 +1,33 @@
+.container {
+  width: 350px;
+  background: pink;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  margin-top: 16px;
+  border-radius: 0.4rem;
+}
+
+.align {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+hr {
+  border: 0.5px solid black;
+  opacity: 25%;
+  width: 100%;
+}
+
+input[type="number"] {
+  width: 75%;
+  border-radius: 5px;
+  height: 1.5rem;
+  border: 2px solid #3dc0c0;
+}
+
+p {
+  font-weight: bold;
+}
